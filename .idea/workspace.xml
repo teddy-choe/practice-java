@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d3bf1-a3d3-4dfc-aed7-d9178c84ab02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -72,12 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582018155836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="array example commit">
+      <created>1582174426944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582174426946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java commit" />
+    <MESSAGE value="kotlin commit" />
+    <MESSAGE value="array example commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="array example commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="179" key="#Project_Structure" timestamp="1582174369437">
@@ -88,17 +92,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166855343" />
-    <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582018153118">
+    <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582174425007">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018153118" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582018159161">
+    <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174425007" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1582174487789">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018159161" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174487789" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582174430353">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174430353" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582166418918">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166418918" />
+    <state x="2593" y="311" key="git4idea.merge.GitPullDialog" timestamp="1582532848639">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2593" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582532848639" />
   </component>
 </project>
