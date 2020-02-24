@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d3bf1-a3d3-4dfc-aed7-d9178c84ab02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/dataSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,10 +33,44 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk-13.0.1" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.DFSAdjArr">
+    <configuration name="DFSAdjArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.DFSAdjArr" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.dataSolution" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DFSAdjArr" />
+        <item itemvalue="Application.dataSolution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -74,36 +109,52 @@
       <option name="project" value="LOCAL" />
       <updated>1582174426946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dfs AdjArr commit">
+      <created>1582532971927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582532971927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java commit" />
     <MESSAGE value="kotlin commit" />
     <MESSAGE value="array example commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="array example commit" />
+    <MESSAGE value="Dfs AdjArr commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dfs AdjArr commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="179" key="#Project_Structure" timestamp="1582174369437">
+    <state x="2472" y="179" key="#Project_Structure" timestamp="1582536120705">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="179" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174369437" />
+    <state x="2472" y="179" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582536120705" />
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582166855343">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166855343" />
-    <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582174425007">
+    <state x="2710" y="214" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1582536104534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174425007" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1582174487789">
+    <state x="2710" y="214" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582536104534" />
+    <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582532969286">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174487789" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582174430353">
+    <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582532969286" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1582536095065">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174430353" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582536095065" />
+    <state x="2360" y="95" key="SettingsEditor" timestamp="1582536005217">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="95" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582536005217" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582533032848">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582533032848" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582166418918">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
