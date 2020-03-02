@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112d3bf1-a3d3-4dfc-aed7-d9178c84ab02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/LMSTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/BeefTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/RemoteControl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +36,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="LMSTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -95,12 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582018155836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="상속 예제 실습 파일 커밋">
+      <created>1583133552789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583133552789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java commit" />
+    <MESSAGE value="상속 예제 실습 파일 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속 예제 실습 파일 커밋" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2472" y="179" key="#Project_Structure" timestamp="1582174369437">
@@ -112,19 +115,51 @@
     </state>
     <state x="707" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583128433435" />
     <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166855343" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583133819058">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133819058" />
     <state x="2529" y="114" key="CommitChangelistDialog2" timestamp="1582018153118">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018153118" />
-    <state x="483" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583133518620">
+    <state width="819" height="295" key="GridCell.Tab.0.bottom" timestamp="1583133746166">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="483" y="255" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583133518620" />
+    <state width="819" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583133746166" />
+    <state width="819" height="295" key="GridCell.Tab.0.center" timestamp="1583133746165">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583133746165" />
+    <state width="819" height="295" key="GridCell.Tab.0.left" timestamp="1583133746165">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583133746165" />
+    <state width="819" height="295" key="GridCell.Tab.0.right" timestamp="1583133746166">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583133746166" />
+    <state x="551" y="248" key="MultipleFileMergeDialog" timestamp="1583133743173">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="551" y="248" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133743173" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1583133795384">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583133795384" />
+    <state x="483" y="255" key="Vcs.Push.Dialog.v2" timestamp="1583133729198">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="483" y="255" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583133729198" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018159161" />
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582166418918">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2572" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166418918" />
+    <state x="526" y="323" key="git4idea.merge.GitPullDialog" timestamp="1583133765683">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="526" y="323" key="git4idea.merge.GitPullDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133765683" />
     <state x="217" y="147" key="new project wizard" timestamp="1582281718085">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
