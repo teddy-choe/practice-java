@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="112d3bf1-a3d3-4dfc-aed7-d9178c84ab02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extendsExample/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ArrayKotlin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/example.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/DfsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/Algorithm/DfsSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/Algorithm/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/dataSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/Algorithm/dataSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayKotlin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/collection/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/Test06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/collection/Test06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Anonymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Anonymous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/AnonymousExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/AnonymousExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/ButtonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/ButtonExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/CallListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/CallListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/MessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Outter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Outter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/OutterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/OutterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example/Searchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example/Searchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2/MVCPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example2/MVCPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example2/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example2/StudentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2/UnderstandDI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/example2/UnderstandDI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/LMSTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/LMSTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/Messenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/MyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extendsExample/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/legacy/extendsExample/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +81,10 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,13 +92,31 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.MyLinkedListTest">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="legacy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LMSTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extendsExample.LMSTest2" />
+      <option name="MAIN_CLASS_NAME" value="legacy.extendsExample.LMSTest2" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extendsExample.*" />
+          <option name="PATTERN" value="legacy.extendsExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_list.Main" />
+      <module name="example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,11 +125,11 @@
       </method>
     </configuration>
     <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extendsExample.MyLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="legacy.extendsExample.MyLinkedListTest" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extendsExample.*" />
+          <option name="PATTERN" value="legacy.extendsExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +138,11 @@
       </method>
     </configuration>
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.Test01" />
+      <option name="MAIN_CLASS_NAME" value="legacy.collection.Test01" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="legacy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +151,11 @@
       </method>
     </configuration>
     <configuration name="Test06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.Test06" />
+      <option name="MAIN_CLASS_NAME" value="legacy.collection.Test06" />
       <module name="example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="legacy.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyLinkedListTest" />
         <item itemvalue="Application.Test06" />
         <item itemvalue="Application.Test01" />
@@ -102,18 +173,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,6 +216,17 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java commit" />
     <MESSAGE value="상속 예제 실습 파일 커밋" />
@@ -163,77 +234,90 @@
     <option name="LAST_COMMIT_MESSAGE" value="컬렉션 API 예제 커밋" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="179" key="#Project_Structure" timestamp="1582174369437">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="746" y="325" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1607060888582">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="2472" y="179" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582174369437" />
-    <state x="707" y="402" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583159870582">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state x="746" y="325" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607060888582" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1607065928982">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="707" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583128433435" />
-    <state x="2728" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166855343" />
-    <state x="707" y="402" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.963@0.23.1680.963" timestamp="1583159870582" />
-    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583133819058">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065928982" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1607065928980">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133819058" />
-    <state x="533" y="128" key="CommitChangelistDialog2" timestamp="1583211928333">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065928980" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1607065928979">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="533" y="115" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1583133850399" />
-    <state x="2529" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018153118" />
-    <state x="533" y="128" key="CommitChangelistDialog2/0.23.1680.963@0.23.1680.963" timestamp="1583211928333" />
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1583211967630">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065928979" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1607065928981">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="819" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583134253500" />
-    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1583211967630" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1583211967629">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065928981" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1607065929809">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="819" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583134253499" />
-    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1583211967629" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1583211967629">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065929809" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1607065929807">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="819" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583134253496" />
-    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1583211967629" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1583211967630">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065929807" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1607065929806">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="819" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583134253499" />
-    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1583211967630" />
-    <state x="551" y="248" key="MultipleFileMergeDialog" timestamp="1583133743173">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065929806" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1607065929809">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="248" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133743173" />
-    <state x="328" y="120" key="SettingsEditor" timestamp="1583159863517">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607065929809" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1607064296053">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
-    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583133795384" />
-    <state x="328" y="120" key="SettingsEditor/0.23.1680.963@0.23.1680.963" timestamp="1583159863517" />
-    <state x="483" y="257" key="Vcs.Push.Dialog.v2" timestamp="1583211935358">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state x="625" y="255" key="run.anything.popup/1920.-9.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1607064296053" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1607063774380">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="483" y="255" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583133860259" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582018159161" />
-    <state x="483" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.963@0.23.1680.963" timestamp="1583211935358" />
-    <state x="571" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1583220528982">
-      <screen x="0" y="23" width="1680" height="963" />
-    </state>
-    <state x="2572" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582166418918" />
-    <state x="571" y="342" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1583220528982" />
-    <state x="526" y="323" key="git4idea.merge.GitPullDialog" timestamp="1583133765683">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="526" y="323" key="git4idea.merge.GitPullDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583133765683" />
-    <state x="217" y="147" key="new project wizard" timestamp="1582281718085">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="217" y="147" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1582281718085" />
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1583678374295">
-      <screen x="0" y="23" width="1680" height="963" />
-    </state>
-    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.963@0.23.1680.963" timestamp="1583678374295" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.-32.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1607063774380" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/LinkedList.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/LinkedList.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/LinkedList.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/linked_list/LinkedList.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
