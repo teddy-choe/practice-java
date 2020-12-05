@@ -1,6 +1,9 @@
 package stack;
 
 public class LinkedListStack<D> {
+
+    // recommend static member class for implement inner class
+    // because not-static member class has potential memory-leak problem
     private static class Node<T> {
         T data;
         Node next;
