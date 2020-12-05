@@ -14,6 +14,6 @@ public class Main {
         linkedList.remove(1);
         linkedList.print();
 
-        System.out.println(linkedList.get(1).data);
+        System.out.println(linkedList.get(1));
     }
 }

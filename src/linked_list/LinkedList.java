@@ -1,7 +1,7 @@
 package linked_list;
 
 public class LinkedList {
-    class Node<T> {
+    private static class Node<T> {
         T data;
         Node next;
 
@@ -65,7 +65,7 @@ public class LinkedList {
         }
     }
 
-    public Node get(int position) {
+    public Object get(int position) {
         if (head == null) {
             System.out.println("No Node!");
             return null;
@@ -75,7 +75,7 @@ public class LinkedList {
                 tempHead = tempHead.next;
             }
 
-            return tempHead;
+            return tempHead.data;
         }
     }
 
