@@ -16,9 +16,7 @@ public class BinaryTree<D> {
     private Node head;
 
     public BinaryTree(D data) {
-        head.data = data;
-        head.left = null;
-        head.right = null;
+        head = new Node(data);
     }
 
     public void setLeft(Node<D> curNode, D data) {
