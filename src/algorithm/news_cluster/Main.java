@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
 
-        String str1 = "abcdeabcde";
-        String str2 = "#@#@";
+        String str1 = "ABCD";
+        String str2 = "CDED";
 
         int result = main.solution(str1, str2);
 
