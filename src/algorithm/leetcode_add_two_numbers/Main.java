@@ -1,62 +1,68 @@
 package algorithm.leetcode_add_two_numbers;
 
-public class Main {
-    public static class ListNode {
-        int val;
-        ListNode next;
+class ListNode {
+    int val;
+    ListNode next;
 
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
-        @Override
-        public String toString() {
-            StringBuilder temp = new StringBuilder();
-
-            while (this.next != null) {
-                temp.append(val);
-                this.next = next.next;
-            }
-
-            return temp.toString();
-        }
+    ListNode() {
     }
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode resultNode = new ListNode();
-
-        int num1 = Integer.valueOf(swapString(l1.toString()));
-        int num2 = Integer.valueOf(swapString(l2.toString()));
-
-        int sum = num1 + num2;
-
-        String reverseNode = swapString(String.valueOf(sum));
-
-        resultNode.val = reverseNode.charAt(0);
-
-        for (int i=1; i<reverseNode.length(); i++) {
-            ListNode newNode = new ListNode();
-            ListNode tempNode = resultNode;
-
-            newNode.val = reverseNode.charAt(i);
-
-            while(tempNode.next != null) {
-                tempNode = tempNode.next;
-            }
-
-            tempNode.next = newNode;
-        }
-
-        return resultNode;
+    ListNode(int val) {
+        this.val = val;
     }
 
-    private static String swapString(String string) {
-        StringBuilder swappedString = new StringBuilder();
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
 
-        for (int i=string.length()-1; i>0; i--) {
-            swappedString.append(string.charAt(i));
+class Main {
+    public static void main(String[] args) {
+        Main main = new Main();
+
+        ListNode l1 = new ListNode(5);
+        l1.next = new ListNode(6);
+        l1.next.next = new ListNode(4);
+
+        ListNode l2 = new ListNode(7);
+        l2.next = new ListNode(0);
+        l2.next.next = new ListNode(8);
+
+        main.addTwoNumbers(l1, l2);
+    }
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode temp = new ListNode();
+        ListNode result = temp;
+        boolean overTen = false;
+
+        while (l1 != null || l2 != null) {
+            int value = l1.val + l2.val;
+
+            if (value>=10) {
+                value = value % 10;
+                overTen = true;
+            } else {
+                overTen = false;
+            }
+
+            if (temp == null) {
+                temp = new ListNode(0);
+            }
+
+            temp.val = temp.val + value;
+
+            if (overTen) {
+                temp.next = new ListNode(1);
+            }
+
+            temp = temp.next;
+
+            l1 = l1.next;
+            l2 = l2.next;
         }
 
-        return swappedString.toString();
+        return result;
     }
 }

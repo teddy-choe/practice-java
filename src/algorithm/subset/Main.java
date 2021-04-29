@@ -1,60 +1,60 @@
 package algorithm.subset;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
-    List<List<Integer>> subsetList;
+    static int max = 0;
+    static boolean[][] visited;
+    static int[][] matrix;
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, -1, 0, 1};
 
     public static void main(String[] args) {
-        Main main = new Main();
+        Scanner scanner = new Scanner(System.in);
 
-        int[] nums = {1,2,3,4,5,6,7,8,9,0};
-        List<List<Integer>> list = main.subsets(nums);
+        int row = scanner.nextInt();
+        int col = scanner.nextInt();
+        matrix = new int[row][col];
+        visited = new boolean[row][col];
 
-        for (List<Integer> list1 : list) {
-            System.out.println();
-            for (int n : list1) {
-                System.out.print(n + " ");
+        for(int i=0; i< row; i++) {
+            for(int j=0; j< col; j++) {
+                matrix[i][j] = Integer.parseInt(scanner.next());
             }
         }
-    }
 
-    public List<List<Integer>> subsets(int[] nums) {
-        subsetList = new ArrayList<>();
-
-        // add zero set
-        subsetList.add(new ArrayList<>());
-        boolean[] visited = new boolean[nums.length];
-
-        for (int i=1; i<=nums.length; i++) {
-            createSubset(nums, visited, 0, nums.length, i);
+        for(int i=0; i< row; i++) {
+            for(int j=0; j< col; j++) {
+                visited[i][j] = true;
+                dfs(i, j, 1, matrix[i][j]);
+            }
         }
 
-        return subsetList;
+        System.out.println(max);
     }
 
-    private void createSubset(int[] ints, boolean[] visited, int idx, int n, int r) {
-        if (r == 0) {
-            ArrayList<Integer> tempList = new ArrayList<>();
-            for (int i = 0; i < n; i++) {
-                if (visited[i]) {
-                    tempList.add(ints[i]);
-                }
+    private static void dfs(int row, int col, int count, int sum) {
+        if(count == 4) {
+            if(max < sum) {
+                max = sum;
             }
 
-            subsetList.add(tempList);
             return;
         }
 
-        if (idx == n) {
-            return;
+        for(int i=0; i<4; i++) {
+            int nextRow = row + dy[i];
+            int nextCol = col + dx[i];
+
+            if(nextRow < 0 || nextCol <0 || nextRow >= matrix.length || nextCol >= matrix[0].length) {
+                continue;
+            }
+
+            if(visited[nextRow][nextCol] == false) {
+                visited[nextRow][nextCol] = true;
+                dfs(nextRow, nextCol, count+1, sum + matrix[nextRow][nextCol]);
+                visited[nextRow][nextCol] = false;
+            }
         }
-
-        visited[idx] = true;
-        createSubset(ints, visited, idx+1, n, r-1);
-
-        visited[idx] = false;
-        createSubset(ints, visited, idx+1, n, r);
     }
 }
