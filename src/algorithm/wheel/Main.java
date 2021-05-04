@@ -73,20 +73,7 @@ public class Main {
 
         for (int i=0; i<4; i++) {
             if (wheels.get(i).number[0] == 1) {
-                switch (i) {
-                    case 0:
-                        total += 1;
-                        break;
-                    case 1:
-                        total += 2;
-                        break;
-                    case 2:
-                        total += 4;
-                        break;
-                    case 3:
-                        total += 8;
-                        break;
-                }
+                total += Math.pow(2, i);
             }
         }
 
