@@ -1,103 +1,86 @@
 package algorithm.string_compress;
 
-import java.util.Stack;
+import java.lang.String;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.HashSet;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Main main = new Main();
 
-        System.out.println(main.solution("()))((()"));
+        String[] orders = {"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"};
+        int[] course = {2, 3, 4};
+        main.solution(orders, course);
     }
 
-    public String solution(String p) {
-        String answer = "";
+    public ArrayList<String> list;
 
-        answer = check(p);
+    public String[] solution(String[] orders, int[] course) {
+        HashSet<String> hashSet = new HashSet<>();
+        ArrayList<String> result = new ArrayList();
+
+        for (String order : orders) {
+            for (int i = 0; i < order.length(); i++) {
+                hashSet.add(String.valueOf(order.charAt(i)));
+            }
+        }
+
+        ArrayList<String> stringArrayList = new ArrayList<>();
+        Iterator iter = hashSet.iterator();
+        while (iter.hasNext()) {
+            stringArrayList.add((String) iter.next());
+        }
+
+        for (int num : course) {
+            list = new ArrayList();
+            String temp = "";
+            combination(stringArrayList, temp, stringArrayList.size(), num, 0);
+
+            for (String str : list) {
+                int count = 0;
+                for (String order : orders) {
+                    boolean isContains = true;
+
+                    for (int i = 0; i < str.length(); i++) {
+                        if (!order.contains(String.valueOf(str.charAt(i)))) {
+                            isContains = false;
+                        }
+                    }
+
+                    if (isContains) {
+                        count++;
+                    }
+                }
+
+                if (count >= 2) {
+                    result.add(str);
+                }
+            }
+        }
+
+        String[] answer = new String[result.size()];
+        int index = 0;
+
+        for (String str : result) {
+            answer[index] = str;
+            index++;
+        }
 
         return answer;
     }
 
-    public String check(String p) {
-        if(p.length() == 0 || isValidParenthese(p)) {
-            return p;
+    public void combination(ArrayList<String> arrayList, String com, int n, int r, int index) {
+        if (r == 0) {
+            list.add(com);
+            return;
         }
 
-        StringBuffer result = new StringBuffer();
-        StringBuffer buffer = new StringBuffer();
-
-        for(int i=0; i<p.length(); i++) {
-            buffer.append(p.charAt(i));
-
-            if(isBalanced(buffer.toString()) && isValidParenthese(buffer.toString())) {
-                result.append(buffer.toString());
-                result.append(check(p.substring(i+1)));
-                break;
-            } else if (isBalanced(buffer.toString())) {
-                result.append('(');
-                result.append(check(p.substring(i+1)));
-                result.append(')');
-                buffer.deleteCharAt(0);
-                buffer.deleteCharAt(buffer.length()-1);
-                result.append(reverse(buffer.toString()));
-                break;
-            }
+        if (index == n) {
+            return;
         }
 
-        return result.toString();
-    }
-
-    public String reverse(String p) {
-        StringBuffer buffer = new StringBuffer();
-
-        for(int i=0; i<p.length(); i++) {
-            if(p.charAt(i) == '(') {
-                buffer.append(')');
-            } else {
-                buffer.append('(');
-            }
-        }
-
-        return buffer.toString();
-    }
-
-    public boolean isBalanced(String p) {
-        int leftNum = 0;
-        int rightNum = 0;
-
-        for (int i=0; i<p.length(); i++) {
-            if(p.charAt(i) == '(') {
-                leftNum++;
-            } else {
-                rightNum++;
-            }
-        }
-
-        if(leftNum == rightNum) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public boolean isValidParenthese(String p) {
-        Stack<Character> stack = new Stack();
-
-        for (int i=0; i<p.length(); i++) {
-            if(p.charAt(i) == '(') {
-                stack.push(p.charAt(i));
-            } else {
-                if(stack.isEmpty()) {
-                    return false;
-                }
-
-                stack.pop();
-            }
-        }
-
-        if(stack.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        combination(arrayList, com + arrayList.get(index), n, r-1, index+1);
+        combination(arrayList, com, n, r, index+1);
     }
 }
