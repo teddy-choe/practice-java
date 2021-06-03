@@ -2,7 +2,6 @@ package algorithm.snake;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
@@ -79,7 +78,7 @@ public class Main {
 
             if (map[temp.row][temp.col] == 0) {
                 // 영역이 사과가 아닌 경우
-                Point toDelete = deque.pollLast();
+                Point toDelete = deque.poll();
                 map[toDelete.row][toDelete.col] = 0;
             }
             map[temp.row][temp.col] = -1;
