@@ -15,7 +15,13 @@ public class Main {
         boolean isBlueSuccess;
 
         public Beads(int rx, int ry, int bx, int by, int count, boolean isRedSuccess, boolean isBlueSuccess) {
-
+            this.rx = rx;
+            this.ry = ry;
+            this.bx = bx;
+            this.by = by;
+            this.count = count;
+            this.isRedSuccess = isRedSuccess;
+            this.isBlueSuccess = isBlueSuccess;
         }
     }
 
@@ -60,6 +66,11 @@ public class Main {
 
         while(true) {
             Beads cur = queue.poll();
+
+            if (cur == null) {
+                return;
+            }
+
             visited[cur.ry][cur.rx][cur.by][cur.bx] = true;
 
             if (cur.count == 10) {
