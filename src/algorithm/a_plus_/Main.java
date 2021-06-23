@@ -8,14 +8,19 @@ public class Main {
     public static void main(String[] args) {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         try {
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                String[] str = line.split(" ");
-                int a = Integer.parseInt(str[0]);
-                int b = Integer.parseInt(str[1]);
+            String temp = bufferedReader.readLine();
+            StringBuilder stringBuilder = new StringBuilder();
 
-                System.out.println(a+b);
+            for (int i=0; i<temp.length(); i++) {
+                stringBuilder.append(temp.charAt(i));
+
+                if (i % 10 == 9) {
+                    System.out.println(stringBuilder.toString());
+                    stringBuilder = new StringBuilder();
+                }
             }
+
+            System.out.println(stringBuilder.toString());
         } catch (IOException e) {
             return;
         }
