@@ -1,4 +1,4 @@
-package algorithm.bead_exit;
+package algorithm.baekjun.bead_exit;
 
 import java.util.LinkedList;
 import java.util.Queue;

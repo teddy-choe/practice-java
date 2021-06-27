@@ -1,4 +1,4 @@
-package algorithm.baby_shark2;
+package algorithm.baekjun.baby_shark2;
 
 import java.util.LinkedList;
 import java.util.Queue;

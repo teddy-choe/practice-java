@@ -1,4 +1,4 @@
-package algorithm.go_school;
+package algorithm.baekjun.go_school;
 
 public class Main {
     static long[][] dp;

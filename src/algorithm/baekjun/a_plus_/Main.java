@@ -1,4 +1,4 @@
-package algorithm.a_plus_;
+package algorithm.baekjun.a_plus_;
 
 import java.io.BufferedReader;
 import java.io.IOException;

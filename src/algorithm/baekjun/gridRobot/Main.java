@@ -1,4 +1,4 @@
-package algorithm.gridRobot;
+package algorithm.baekjun.gridRobot;
 
 import java.util.Scanner;
 

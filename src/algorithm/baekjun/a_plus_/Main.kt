@@ -1,4 +1,4 @@
-package algorithm.a_plus_
+package algorithm.baekjun.a_plus_
 
 fun main(args: Array<String>) {
     val n = readLine()?.toInt()

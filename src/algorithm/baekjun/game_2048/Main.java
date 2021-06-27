@@ -1,4 +1,4 @@
-package algorithm.game_2048;
+package algorithm.baekjun.game_2048;
 
 import java.util.Scanner;
 

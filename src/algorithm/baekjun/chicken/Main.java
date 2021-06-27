@@ -1,4 +1,4 @@
-package algorithm.chicken;
+package algorithm.baekjun.chicken;
 
 import java.util.LinkedList;
 import java.util.Queue;

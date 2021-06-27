@@ -1,4 +1,4 @@
-package algorithm.allyadapter;
+package algorithm.baekjun.allyadapter;
 
 import java.util.ArrayList;
 import java.util.Scanner;
