@@ -1,4 +1,4 @@
-package algorithm.connected_component;
+package algorithm.baekjun.connected_component;
 
 import java.io.BufferedReader;
 import java.io.IOException;
