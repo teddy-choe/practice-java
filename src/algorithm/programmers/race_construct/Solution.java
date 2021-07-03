@@ -1,4 +1,4 @@
-package algorithm.race_construct;
+package algorithm.programmers.race_construct;
 
 import java.util.LinkedList;
 import java.util.Queue;

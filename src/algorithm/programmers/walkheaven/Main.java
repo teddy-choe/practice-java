@@ -1,4 +1,4 @@
-package algorithm.walkheaven;
+package algorithm.programmers.walkheaven;
 
 class Main {
     int MOD = 20170805;

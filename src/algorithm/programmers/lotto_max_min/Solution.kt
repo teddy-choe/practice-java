@@ -1,4 +1,4 @@
-package algorithm.lotto_max_min
+package algorithm.programmers.lotto_max_min
 
 class Solution {
     fun solution(lottos: IntArray, win_nums: IntArray): IntArray {

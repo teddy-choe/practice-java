@@ -1,4 +1,4 @@
-package algorithm.news_cluster;
+package algorithm.programmers.news_cluster;
 
 import java.util.ArrayList;
 import java.util.HashMap;

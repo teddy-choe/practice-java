@@ -1,4 +1,4 @@
-package algorithm.openchat;
+package algorithm.programmers.openchat;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;

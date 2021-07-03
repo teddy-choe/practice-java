@@ -1,4 +1,4 @@
-package algorithm.scoville;
+package algorithm.programmers.scoville;
 
 import java.util.PriorityQueue;
 
