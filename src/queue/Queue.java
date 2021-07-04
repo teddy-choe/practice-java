@@ -1,6 +1,6 @@
 package queue;
 
-public class Queue<T> {
+class Queue<T> {
     private static class Node<T> {
         T data;
         Node next;
