@@ -24,6 +24,7 @@ public class ClientManagerThread extends Thread{
                     for(int i=0;i<MyServer.m_OutputList.size();++i){
                         MyServer.m_OutputList.get(i).println(text);
                         MyServer.m_OutputList.get(i).flush();
+                        System.out.println(text);
                     }
                 }
             }
