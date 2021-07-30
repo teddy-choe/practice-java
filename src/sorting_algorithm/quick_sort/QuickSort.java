@@ -1,4 +1,4 @@
-package quick_sort;
+package sorting_algorithm.quick_sort;
 
 public class QuickSort {
     private int[] array;
