@@ -1,37 +1,69 @@
 package algorithm.programmers.compress;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
-        String string = "aabcccaaaa";
+        Main main = new Main();
 
-        char[] stringArray = string.toCharArray();
-        char[] result = new char[string.length()];
+        System.out.println(main.solution("xababcdcdababcdcd"));
+    }
 
-        char preWord = stringArray[0];
-        int count = 0;
-        int resultIndex = 0;
-        for (int i=0; i<string.length(); i++) {
-            char curWord = stringArray[i];
+    public int solution(String s) {
+        int answer = 0;
+        int count = 1;
+        int min = s.length();
+        String preUnit = "";
 
-            if (i == string.length() - 1) {
-                result[resultIndex++] = preWord;
-                result[resultIndex] = Character.forDigit(count, 10);
+        if (s.length() == 1) {
+            return 1;
+        }
+
+        for(int i=1; i<=s.length()/2; i++) {
+            String compressString = "";
+            count = 1;
+            preUnit = "";
+            int temp = 0;
+
+            for(int j=0; j<s.length(); j += i) {
+                String unit;
+
+                if (j+i > s.length()) {
+                    break;
+                } else {
+                    temp = j+i;
+                    unit = s.substring(j, j+i);
+                }
+
+                if (unit.equals(preUnit)) {
+                    count++;
+                } else {
+                    if (count >= 2) {
+                        compressString += count + preUnit;
+                    } else {
+                        compressString += preUnit;
+                    }
+
+                    preUnit = unit;
+                    count = 1;
+                }
             }
 
-            if (preWord == curWord) {
-                count++;
+            if (count >= 2) {
+                compressString += count + preUnit;
             } else {
-                result[resultIndex++] = preWord;
-                result[resultIndex++] = Character.forDigit(count, 10);
-
-                count = 0;
+                compressString += preUnit;
             }
 
-            preWord = curWord;
+            while(temp < s.length()) {
+                compressString += String.valueOf(s.charAt(temp++));
+            }
+
+            if (compressString.length() < min) {
+                min = compressString.length();
+            }
         }
 
-        for (char word : result) {
-            System.out.print(word);
-        }
+        answer = min;
+
+        return answer;
     }
 }
