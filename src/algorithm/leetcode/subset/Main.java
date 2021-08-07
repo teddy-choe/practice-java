@@ -1,4 +1,4 @@
-package algorithm.subset;
+package algorithm.leetcode.subset;
 
 import java.util.Scanner;
 

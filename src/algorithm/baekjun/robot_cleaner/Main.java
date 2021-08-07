@@ -1,4 +1,4 @@
-package algorithm.robot_cleaner;
+package algorithm.baekjun.robot_cleaner;
 
 import java.util.Scanner;
 
