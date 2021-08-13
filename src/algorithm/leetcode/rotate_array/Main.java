@@ -1,4 +1,4 @@
-package algorithm.rotate_array;
+package algorithm.leetcode.rotate_array;
 
 import java.util.ArrayList;
 import java.util.Scanner;

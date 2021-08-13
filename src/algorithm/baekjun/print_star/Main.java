@@ -1,4 +1,4 @@
-package algorithm.print_star;
+package algorithm.baekjun.print_star;
 
 import java.io.BufferedReader;
 import java.io.IOException;

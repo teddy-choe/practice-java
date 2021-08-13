@@ -1,4 +1,4 @@
-package algorithm.insert_ad;
+package algorithm.programmers.insert_ad;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

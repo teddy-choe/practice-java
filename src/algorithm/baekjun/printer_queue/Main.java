@@ -1,4 +1,4 @@
-package algorithm.printer_queue;
+package algorithm.baekjun.printer_queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
