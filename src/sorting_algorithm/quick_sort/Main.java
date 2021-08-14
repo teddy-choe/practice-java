@@ -2,10 +2,14 @@ package sorting_algorithm.quick_sort;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {1, 4, 5, 2, 5, 6, 1};
+        int[] array = {1,1,2,3,4,6,7,8,9,10};
 
-        QuickSort quickSort = new QuickSort(array);
+        QuickSort quickSort = new QuickSort();
 
-        quickSort.sort(0, 6);
+        quickSort.sort(array);
+
+        for (int i: array) {
+            System.out.println(i);
+        }
     }
 }

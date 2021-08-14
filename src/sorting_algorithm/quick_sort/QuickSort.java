@@ -1,45 +1,78 @@
 package sorting_algorithm.quick_sort;
 
+/*
+ * 왼쪽 피벗은 오른쪽 포인터부터 내려와야한다. 왜??
+ * 오른쪽 피벗은 반대임 왜?
+ */
+
 public class QuickSort {
-    private int[] array;
+    public int[] sort(int[] list) {
+        sort(list, 0, list.length-1);
 
-    public QuickSort(int[] array) {
-        this.array = array;
+        return list;
     }
 
-    public void sort(int start, int end) {
-        for (int a : array) {
-            System.out.print(a + " ");
+    private void sort(int[] list, int start, int end) {
+        if (start >= end) {
+            return;
         }
-        System.out.println();
 
-        if (start!=end) {
-            int mid = partition(start, end);
-            sort(start, mid-1);
-            sort(mid+1, end);
-        } else return;
+        int mid = leftPartition(list, start, end);
+
+        sort(list, start, mid-1);
+        sort(list, mid+1, end);
     }
 
+    private int leftPartition(int[] list, int start, int end) {
+        int pivot = start;
+        int left = start;
+        int right = end;
 
-    //FIXME: start, end가 같은 값일때 버그 발생. 아얘 start++, end++가 되지 않아서 종료되지않는다.
-    private int partition(int start, int end) {
-        int pivot = (start+end)/2;
+        while (left < right) {
+            // pivot보다 작거나 같은 값을 찾는다
+            while (left < right && list[pivot] < list[right]) {
+                right--;
+            }
 
-        while(start<end) {
-                while (array[start] < array[pivot]) start++;
-                while (array[end] > array[pivot]) end--;
+            // pivot보다 큰 값을 찾는다
+            while (left < right && list[pivot] >= list[left]) {
+                left++;
+            }
 
-                if (end == pivot) {
-                    pivot = start;
-                } else if (start == pivot) {
-                    pivot = end;
-                }
+            int temp = list[left];
+            list[left] = list[right];
+            list[right] = temp;
+        }
 
-                int temp = array[start];
-                array[start] = array[end];
-                array[end] = temp;
+        int temp = list[pivot];
+        list[pivot] = list[left];
+        list[left] = temp;
+
+        return left;
+    }
+
+    private int middlePartition(int[] list, int start, int end) {
+        int pivot = (start + end) / 2;
+        int left = start;
+        int right = end;
+
+        while (left < right) {
+            // 왼쪽에서부터 피봇보다 큰 값을 찾는다
+            while (left < right && list[pivot] >= list[left]) {
+                left++;
+            }
+
+            // 오른쪽부터 피봇보다 작거나 같은 값을 찾는다
+            while (left < right && list[pivot] < list[right]) {
+                right--;
+            }
+
+            int temp = list[left];
+            list[left] = list[right];
+            list[right] = temp;
         }
 
         return pivot;
     }
+
 }
