@@ -5,23 +5,21 @@ import kotlinx.coroutines.*
 fun main() = runBlocking{
     println("before!")
 
-    GlobalScope.launch {
-        launch { // launch coroutine in the main thread
-            for (i in 10 downTo 1) { // countdown from 10 to 1
-                println("count : $i")
-                delay(500) // wait half a second
-            }
-            println("done!")
+    coroutineScope {
+        launch {
+            delay(1100)
+            println("1111")
         }
 
-        launch { // launch coroutine in the main thread
-            for (i in 1 .. 10) { // countdown from 10 to 1
-                println("count : $i")
-                delay(500) // wait half a second
-            }
-            println("done!")
+        withContext(Dispatchers.Default) {
+            println("123")
+            delay(1100)
         }
-    }.join()
+
+        withContext(Dispatchers.IO) {
+            println("456")
+        }
+    }
 
     println("after!")
 }
